@@ -18,7 +18,6 @@ public class Sort012 {
                 int temp=arr[mid];
                 arr[mid]=arr[high];
                 arr[high]=temp;
-                mid++;
                 high--;
             }
         }
